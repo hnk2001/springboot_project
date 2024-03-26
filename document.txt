@@ -1,0 +1,39 @@
+Main
+|-- src
+|   |-- main
+|       |-- java
+|           |-- com
+|               |-- emp
+|                   |-- main
+|                       |-- configuration
+|                           |-- SecurityConfig.java
+|                       |-- controller
+|                           |-- MainController.java
+|                       |-- model
+|                           |-- Employee.java
+|                       |-- repository
+|                           |-- EmployeeRepository.java
+|                       |-- service
+|                           |-- EmployeeService.java
+|                           |-- Impl
+|                               |-- EmployeeServiceImpl.java
+|-- resources
+|   |-- static
+|   |-- templates
+|       |-- add-employee.java
+|       |-- employee-list.java
+|       |-- index.java
+|       |-- update-employee.java
+|   |-- application.properties
+|-- test
+|   |-- java
+|       |-- com
+|           |-- emp
+|               |-- main
+|                   |-- MainApplicationTests.java
+|-- .gitignore
+|-- pom.xml
+|-- mvnw.cmd
+|-- README.md
+
+Run this Project From MainApplication.java
